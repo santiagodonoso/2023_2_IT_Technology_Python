@@ -1,1 +1,0 @@
-# 2023_2_IT_Technology_Python
