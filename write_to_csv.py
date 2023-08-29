@@ -5,5 +5,3 @@ with open("write_to_csv.csv", "a", encoding="utf-8") as my_file:
     last_name = input("Last name:")
     data = (f"\n{name}¤{last_name}")
     my_file.write(data)
-
-
