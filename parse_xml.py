@@ -6,9 +6,6 @@ name = tree.findtext('name').strip()
 last_name = tree.findtext('last_name').strip()
 print(f"Hi {name} {last_name}")
  
-#Today     is     ok
-# Hi A B
-# f string
 
 
 
