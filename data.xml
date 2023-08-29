@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <name>
+    Santiago
+  </name>
+  <last_name>
+    Donoso
+  </last_name>
+  <pets>
+    <pet>
+      <name>Cati</name>
+      <age>1</age>
+    </pet>
+    <pet>
+      <name>Dogi</name>
+      <age>2</age>
+    </pet>
+  </pets>
+  <siblings>
+    <sibling>
+      <name>A</name>
+      <age>10</age>
+      <gender>male</gender>
+    </sibling>
+    <sibling>
+      <name>B</name>
+      <age>12</age>
+      <gender>female</gender>
+    </sibling>
+    <sibling>
+      <name>C</name>
+      <age>20</age>
+      <gender>female</gender>
+    </sibling>        
+  </siblings>
+</person>
