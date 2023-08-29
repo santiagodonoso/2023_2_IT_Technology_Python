@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <person>
-  <name>
-    Santiago
-  </name>
   <last_name>
     Donoso
   </last_name>
+  <name>
+    Santiago
+  </name>
   <pets>
     <pet>
       <name>Cati</name>
