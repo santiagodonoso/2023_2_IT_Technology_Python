@@ -2,8 +2,9 @@ DROP TABLE IF EXISTS users;
 
 CREATE TABLE users(
   id      TEXT NOT NULL,
-  name    TEXT
-);
+  name    TEXT,
+  PRIMARY KEY(id)
+) WITHOUT ROWID;
 
 
 
