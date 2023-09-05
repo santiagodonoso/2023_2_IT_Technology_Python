@@ -7,7 +7,7 @@ print(id)
 print(type(id))
 db = sqlite3.connect("database.sqlite")
 q = "INSERT INTO users VALUES(?, ?)"
-db.execute(q, (id, 'A'))
+db.execute(q, (id, 'D'))
 db.commit()
 
 
