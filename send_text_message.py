@@ -22,5 +22,5 @@ myobj = {
   "sms_to_phone" : mobile_number,
   "sms_message": "MESSAGE HERE"
   }
-x = requests.post(url, data = myobj) # data is "body form-data"
+x = requests.post(url, myobj) # myobj is "body form-data"
 print(x.text)
