@@ -9,9 +9,10 @@ with open("user_data.json", "r", encoding="utf-8") as my_file:
   json_data = json.loads(my_file.read())
   print(type(json_data))
   mobile_number = json_data.get("user_mobile_number", "DEFAULT_NUMBER_HERE")
-
+  # get the message from the file
+  # get the api from the file
+  
 print(mobile_number)
-
 # Do you remember context managers?
 # Get the phone number from the file "user_data.json"
 # Extract the number and replace it with "YOUR_PHONE_NUMBER_HERE"
