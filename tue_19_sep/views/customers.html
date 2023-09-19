@@ -1,0 +1,15 @@
+%include("_header")
+
+<h1>
+  Customers
+</h1>
+
+% for user in users:
+  <div>
+    <div>{{ user["id"] }}</div>
+    <div>{{ user.get("name", "") }}</div>
+  </div>
+% end
+
+
+%include("_footer")
